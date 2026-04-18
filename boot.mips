@@ -1,0 +1,21 @@
+; boot.asm
+bits 32
+section .multiboot
+        align 4
+        dd 0x1BADB002              ; Magic number cho GRUB/UTM
+        dd 0x00                    ; Flags
+        dd - (0x1BADB002 + 0x00)   ; Checksum
+
+section .text
+global _start
+extern kmain
+
+_start:
+        cli                        ; Tắt ngắt
+        mov esp, stack_space       ; Thiết lập ngăn xếp (stack)
+        call kmain                 ; Nhảy vào code C
+        hlt                        ; Dừng CPU nếu kernel thoát
+
+section .bss
+resb 8192                          ; Cấp 8KB cho stack
+stack_space:
