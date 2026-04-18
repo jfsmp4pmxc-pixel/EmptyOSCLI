@@ -1,0 +1,2 @@
+# EmptyOSCLI
+EmptyOS CLI
