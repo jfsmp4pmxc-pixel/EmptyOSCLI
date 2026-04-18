@@ -48,3 +48,6 @@ gcc -m32 -ffreestanding -O0 -fno-stack-protector -fno-pie -c kernel.c -o kernel.
 
 # Liên kết (Link) và tạo file ISO
 # (Sử dụng linker script và grub-mkrescue)
+```
+## lưu ý:
+một số tính năng không hoạt động.
