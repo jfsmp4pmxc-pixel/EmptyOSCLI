@@ -1,7 +1,8 @@
 # EmptyOSCLI
 <img width="1372" height="943" alt="IMG_3684" src="https://github.com/user-attachments/assets/d98ba5f5-ec34-4eb7-b3df-3cf27faf1d23" />
-EmptyOS CLI
-# EmptyOS CLI Edition v0.4
+
+
+# EmptyOS CLI Edition v0.4:
 
 **EmptyOS** là một hệ điều hành mã nguồn mở siêu nhẹ (hobby OS) được phát triển cho kiến trúc x86. Phiên bản v0.4 đánh dấu bước ngoặt lớn với hệ thống File System chạy hoàn toàn trên RAM (Initrd) và một Shell tương tác mạnh mẽ.
 
