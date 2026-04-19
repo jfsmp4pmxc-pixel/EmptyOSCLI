@@ -35,19 +35,5 @@ Hệ điều hành sử dụng **Sector 100** làm "Bảng mục lục" (Directo
 - `echo <content>`
 - `cat <filename>`: Đọc nội dung file đã lưu.
 - `format`: Khởi tạo lại toàn bộ vùng RAM Disk.
-
-## Cách Build (Dành cho Developer)
-Sử dụng bộ công cụ `gcc-multilib` và `nasm`:
-
-```bash
-# Biên dịch Bootloader
-nasm -f elf32 boot.asm -o boot.o
-
-# Biên dịch Kernel
-gcc -m32 -ffreestanding -O0 -fno-stack-protector -fno-pie -c kernel.c -o kernel.o
-
-# Liên kết (Link) và tạo file ISO
-# (Sử dụng linker script và grub-mkrescue)
-```
 ## lưu ý:
 một số tính năng không hoạt động.
