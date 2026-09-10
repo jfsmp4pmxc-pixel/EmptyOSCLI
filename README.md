@@ -3,8 +3,8 @@
 
 ### Orther
 
+##### code of the "ver" command =]]
 ```C
-
 void ver() {
     print("                       ORIGINAL\n", GREEN);
     print(" version b0.4.2.37\n", RED);
