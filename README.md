@@ -27,7 +27,7 @@ void ver() {
 }
 ```
 
-### Work progress (b0.5.0.1)
+### Work progress (b0.5.0.2)
 
 - [x] FS
 - [ ] more commands
