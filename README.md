@@ -5,7 +5,7 @@
 ```txt
 - X86
 - RAM <1MB
-- Storage 10MB
+- Storage 6MB
 ```
 
 ### Orther
