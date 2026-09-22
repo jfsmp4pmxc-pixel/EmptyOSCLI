@@ -30,10 +30,8 @@ void ver() {
 ### Work progress (b0.5.0.1)
 
 - [x] FS
-
 - [ ] more commands
-
-_ [ ] fix bug
+- [ ] fix bug
 
 ### Changelog
 
