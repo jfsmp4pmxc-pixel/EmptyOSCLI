@@ -32,6 +32,7 @@ void ver() {
 - [x] FS
 - [ ] more commands
 - [ ] fix bug
+- [x] coloring command syntax (remove on b0.3)
 
 ### Changelog
 
