@@ -27,14 +27,16 @@ void ver() {
 }
 ```
 
-### Work progress (b0.5.0.2)
-
-- [x] FS
-- [ ] more commands
-- [ ] fix bugs (There are so many bugs!🫤)
-- [x] coloring command syntax
+### Work progress (empty)
 
 ### Changelog
+
+##### b0.5.0:
+add:
+- FAT12
+- Coloring
+fix:
+- bugs
 
 ##### b0.5.0.1:
 add:
