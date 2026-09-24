@@ -31,10 +31,11 @@ void ver() {
 
 ### Changelog
 
-##### b0.5.0:
+##### b0.5.0.2:
 add:
 - FAT12
 - Coloring
+
 fix:
 - bugs
 
