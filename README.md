@@ -46,6 +46,7 @@ add:
 - command "cd"
 - command "rm"
 - command "mkdir"
+
 fix:
 - bugs
 
